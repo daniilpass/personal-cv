@@ -1,8 +1,8 @@
 # Description
-Personal CV site on React hooks
+Personal CV site on React hooks  
 
 # Run and Build
-`cd web` - Go to the web project folder. \
-`npm install` - Install all dependencies. \
-`npm run start` - Run webpack dev server with hot reloading at http://localhost:8080/. \
-`npm run build` - Create build of app in the build folder.
+`cd web` - Go to the web project folder.  
+`npm install` - Install all dependencies.  
+`npm run start` - Run webpack dev server with hot reloading at http://localhost:8080/.  
+`npm run build` - Create build of app in the build folder.  
