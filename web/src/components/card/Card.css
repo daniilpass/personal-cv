@@ -1,0 +1,6 @@
+.card__tag {
+    color: var(--text-dim);
+    font-size: 44pt;
+    font-weight: bold;
+    user-select: none;
+}

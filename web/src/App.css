@@ -1,7 +1,20 @@
-body {
-    background-color: #212121;
+:root {
+    --background: #303030;
+    --text-primary:#b1d4d4;    
+    --text-tag: #4a9ccb;
+    --text-dim:#404040;
+    --text-selection: #264f78;
 }
 
-h1 {
-    color: #A1A1A1;
+body {
+    background-color: var(--background);
+    font-family: Consolas, monaco, monospace;
+    font-size: 13pt;    
+    color: var(--text-primary);
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
