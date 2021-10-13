@@ -4,3 +4,7 @@
     font-weight: bold;
     user-select: none;
 }
+
+.card__content {
+    margin-left: 24px;
+}

@@ -6,7 +6,7 @@ export function Menu (props) {
 
     return (
             <ul className="menu">
-                <TextTag name="ul">
+                <TextTag name="ul" tagClassName="menu__tag">
                     { props.children }
                 </TextTag>
             </ul>

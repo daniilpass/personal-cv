@@ -7,7 +7,7 @@ export function Card(props) {
 
     return (
         <div className="card">
-            <TextTag name={title.toLocaleLowerCase()} openTagClassName="card__tag" closeTabClassName="card__tag">
+            <TextTag name={title.toLocaleLowerCase()} tagClassName="card__tag">
                 <div className="card__content">
                     {props.children}
                 </div>

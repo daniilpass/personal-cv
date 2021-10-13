@@ -1,9 +1,14 @@
 .menu {
-    list-style-type: none;    
-    color: var(--text-tag);
+    list-style-type: none;   
     user-select: none;
     display: inline-block;
 }
+
+.menu__tag {     
+    color: var(--text-tag);
+    display: inline-block;
+}
+
 /*
 Hack. li width fit content
 */
@@ -19,7 +24,6 @@ Hack. li width fit content
 
 .menu__title{
     display: inline-block;
-    color: var(--text-primary);
     margin: 0 2px;
 }
 

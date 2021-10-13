@@ -5,12 +5,14 @@
     --text-tag: #4a9ccb;
     --text-dim:#404040;
     --text-selection: #264f78;
+    --text-size: 13pt;
+    --text-size-h1: 26pt;
 }
 
 body {
     background-color: var(--background);
     font-family: Consolas, monaco, monospace;
-    font-size: 13pt;    
+    font-size: var(--text-size);    
     color: var(--text-primary);
     margin: 0;
 }
@@ -21,7 +23,14 @@ ul {
 }
 
 /*Menu positions*/
+.app {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .app_menu {
+    white-space: nowrap;
     vertical-align: top;
     display: inline-block;
     padding: 12px;
@@ -34,6 +43,5 @@ ul {
 
 .app_content {
     display: inline-block;
-    margin-left: 24px
-    /* margin-left: 330px; */
+    margin-left: 24px;
 }
