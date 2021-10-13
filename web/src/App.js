@@ -12,7 +12,6 @@ function App() {
             <div className="app__menu-layout">
                 <div className="app_menu">
                     <Menu>
-                        <MenuItem title="About" />
                         <MenuItem title="Tech stack" />
                         <MenuItem title="Projects" />
                         <MenuItem title="Experience" />
@@ -22,10 +21,10 @@ function App() {
             </div>
             <div className="app__content-layout">
                 <div className="app_content">
-                    <Intro />
-                    <Card title="About">
-                        About About About About  About About About About  About About About About About About About About  About About About About  About About About About  About About About About  About About About About
-                    </Card>
+                    <div className="content__intro">
+                        <Intro />
+                    </div>
+                    
 
                     <Card title="Projects">
                         Projects <br/>

@@ -6,7 +6,10 @@
     --text-dim:#404040;
     --text-selection: #264f78;
     --text-size: 13pt;
-    --text-size-h1: 26pt;
+    --text-size-medium: 26pt;
+    --text-size-large: 39pt;
+    --safe-space-large: 48px;
+    --menu-height: 168px;
 }
 
 body {
@@ -27,6 +30,7 @@ ul {
     display: flex;
     max-width: 1600px;
     margin: 0 auto;
+    padding-right: var(--safe-space-large);
 }
 
 .app_menu {
@@ -34,14 +38,24 @@ ul {
     vertical-align: top;
     display: inline-block;
     padding: 12px;
-    padding-top: 350px; /*50vh;*/
+    padding-top: max(0px, calc(50vh - var(--menu-height) / 2));
     position: sticky;
-    margin-left: 64px;
-    top: -244px;    
-    background-color: var(--background-second)
+    margin-left: var(--safe-space-large);
+    margin-right: var(--safe-space-large);
+    top: min(0px, calc(-50vh + var(--menu-height) / 2 + var(--safe-space-large)));
+    background-color: var(--background-second);
 }
+/* 
+.app_menu .menu{
+    margin-top: var(--safe-space-large);;
+} */
 
 .app_content {
     display: inline-block;
-    margin-left: 24px;
+}
+
+.content__intro {
+    min-height: calc(100vh - var(--text-size-large));
+    display: flex;
+    align-items: center;
 }

@@ -1,9 +1,39 @@
-.intro h1 {
-    margin: 0;
+.intro {
+    
 }
 
-.intro__tag {
-    font-weight: bold;
-    font-size: var(--text-size-h1);
-    color:  var(--text-tag);
+.intro__hello {
+    margin: 0;
+    font-weight: normal;
+    font-size: var(--text-size-medium);
 }
+
+.intro__about {
+    margin-top: 24px;
+    /* line-height: calc(var(--text-size) * 1.5); */
+}
+
+.intro__b-tag {
+    display: inline-block;
+    font-weight: bold;
+    color:  var(--text-tag);
+    font-size: var(--text-size-large);
+}
+
+.intro__fullName {
+    display: inline-block;   
+    margin: 0 4px;
+    color: var(--text-tag);
+    font-size: var(--text-size-large);
+}
+
+.intro__br {
+    color: var(--text-tag);
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.intro__br-tag {
+    color: var(--text-tag);
+}
+
