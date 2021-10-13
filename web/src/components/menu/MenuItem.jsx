@@ -1,4 +1,5 @@
 import React from "react";
+import TextTag from "../texttag";
 
 export function MenuItem (props) {
     const {title} = props;
@@ -6,9 +7,9 @@ export function MenuItem (props) {
     return (            
             <li className="menu__item">
                 <a className="menu__link">
-                    &lt;li&gt;
-                    <div className="menu__title">{title}</div>
-                    &lt;/li&gt;
+                    <TextTag name="li" tagStyles={{display: "inline-block"}}>
+                        <div className="menu__title">{title}</div>
+                    </TextTag>
                 </a>
             </li>
     )

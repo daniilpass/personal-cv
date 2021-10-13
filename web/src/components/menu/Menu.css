@@ -3,14 +3,6 @@
     color: var(--text-tag);
     user-select: none;
     display: inline-block;
-    background-color: #1e1e1e;
-}
-
-/*Test positions*/
-.menu {
-    margin-top: 150px;
-    /* padding-left: 25%; */
-    padding: 12px 0 12px 25%;
 }
 /*
 Hack. li width fit content

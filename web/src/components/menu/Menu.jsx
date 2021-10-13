@@ -1,13 +1,14 @@
 import React from "react";
+import TextTag from "../texttag";
 import "./Menu.css";
 
 export function Menu (props) {
 
     return (
             <ul className="menu">
-                <li>&lt;ul&gt;</li>
-                {props.children}
-                <li>&lt;/ul&gt;</li>
+                <TextTag name="ul">
+                    { props.children }
+                </TextTag>
             </ul>
     )
 }

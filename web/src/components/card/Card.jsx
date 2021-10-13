@@ -1,4 +1,5 @@
 import React from "react";
+import TextTag from "../texttag";
 
 import "./Card.css";
 export function Card(props) {
@@ -6,11 +7,11 @@ export function Card(props) {
 
     return (
         <div className="card">
-            <div className="card__tag">&lt;{title.toLocaleLowerCase()}&gt;</div>
-            <div className="card__content">
-                {props.children}
-            </div>
-            <div className="card__tag">&lt;/{title.toLocaleLowerCase()}&gt;</div>
+            <TextTag name={title.toLocaleLowerCase()} openTagClassName="card__tag" closeTabClassName="card__tag">
+                <div className="card__content">
+                    {props.children}
+                </div>
+            </TextTag>
         </div>
     )
 }

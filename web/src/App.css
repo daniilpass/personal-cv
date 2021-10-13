@@ -1,5 +1,6 @@
 :root {
     --background: #303030;
+    --background-second: #1e1e1e;
     --text-primary:#b1d4d4;    
     --text-tag: #4a9ccb;
     --text-dim:#404040;
@@ -17,4 +18,22 @@ body {
 ul {
     margin: 0;
     padding: 0;
+}
+
+/*Menu positions*/
+.app_menu {
+    vertical-align: top;
+    display: inline-block;
+    padding: 12px;
+    padding-top: 350px; /*50vh;*/
+    position: sticky;
+    margin-left: 64px;
+    top: -244px;    
+    background-color: var(--background-second)
+}
+
+.app_content {
+    display: inline-block;
+    margin-left: 24px
+    /* margin-left: 330px; */
 }
