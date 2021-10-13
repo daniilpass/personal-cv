@@ -12,8 +12,8 @@ function App() {
             <div className="app__menu-layout">
                 <div className="app_menu">
                     <Menu>
-                        <MenuItem title="Tech stack" />
-                        <MenuItem title="Projects" />
+                        <MenuItem title="Projects" link="#projects"/>
+                        <MenuItem title="Tech stack" link="#tech-stack"/>
                         <MenuItem title="Experience" />
                         <MenuItem title="Education" />
                     </Menu>
@@ -26,7 +26,7 @@ function App() {
                     </div>
                     
 
-                    <Card title="Projects">
+                    <Card id="projects" title="Projects">
                         Projects <br/>
                         Projects <br/>
                         Projects <br/>
@@ -48,7 +48,7 @@ function App() {
                         Projects <br/>
                         Projects
                     </Card>
-                    <Card title="Projects">
+                    <Card id="tech-stack" title="Tech stack">
                         Projects <br/>
                         Projects <br/>
                         Projects <br/>

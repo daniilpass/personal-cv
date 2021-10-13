@@ -3,10 +3,10 @@ import TextTag from "../texttag";
 
 import "./Card.css";
 export function Card(props) {
-    const { title } = props;
+    const { id, title } = props;
 
     return (
-        <div className="card">
+        <div id={id} className="card">
             <TextTag name={title.toLocaleLowerCase()} tagClassName="card__tag">
                 <div className="card__content">
                     {props.children}
