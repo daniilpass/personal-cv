@@ -12,6 +12,7 @@ function App() {
             <div className="app__menu-layout">
                 <div className="app_menu">
                     <Menu>
+                        <MenuItem title="Home" link="#"/>
                         <MenuItem title="Projects" link="#projects"/>
                         <MenuItem title="Tech stack" link="#tech-stack"/>
                         <MenuItem title="Experience" />
