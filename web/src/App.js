@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu, MenuItem } from "./components/menu";
-import Card from "./components/card";
+import Block from "./components/block";
 
 import "./App.css";
 import Intro from "./components/intro";
@@ -27,7 +27,7 @@ function App() {
                     </div>
                     
 
-                    <Card id="projects" title="Projects">
+                    <Block id="projects" title="Projects">
                         Projects <br/>
                         Projects <br/>
                         Projects <br/>
@@ -48,8 +48,8 @@ function App() {
                         Projects <br/>
                         Projects <br/>
                         Projects
-                    </Card>
-                    <Card id="tech-stack" title="Tech stack">
+                    </Block>
+                    <Block id="tech-stack" title="Tech stack">
                         Projects <br/>
                         Projects <br/>
                         Projects <br/>
@@ -70,7 +70,7 @@ function App() {
                         Projects <br/>
                         Projects <br/>
                         Projects
-                    </Card>
+                    </Block>
                 </div>
             </div>
                         

@@ -1,10 +1,10 @@
-.card__tag {
+.block__tag {
     color: var(--text-dim);
     font-size: var(--text-size-large);
     font-weight: bold;
     user-select: none;
 }
 
-.card__content {
+.block__content {
     margin-left: 24px;
 }
