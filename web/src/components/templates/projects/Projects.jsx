@@ -2,11 +2,11 @@ import React from "react";
 import Block from "../../ui/block";
 import Card from "../../ui/card";
 import VtbLogo from "../../../assets/img/vtb.png";
+import { routes } from "../../../settings";
 
 export function Projects() {
-
     return (
-        <Block id="projects" title="Projects">
+        <Block id={routes.projects} title="Projects">
             <Card 
                 title="Super title"
                 subtitle="Subtitle"

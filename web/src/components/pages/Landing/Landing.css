@@ -5,3 +5,7 @@
     display: flex;
     align-items: center;
 }
+
+.card__image {    
+    filter: grayscale(1) contrast(0);
+}

@@ -1,7 +1,6 @@
 import React from "react";
 import TextTag from "../../ui/texttag";
 
-
 import "./Intro.css"
 
 export function Intro(props) {

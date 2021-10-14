@@ -7,9 +7,9 @@ export function Card(props) {
 
     return (
         <div className={`card ${className || ""}`.trim()}>
-            <div className="card__image">
-                {img && <img src={img} />}
-            </div>
+            {img && <div className="card__image">
+                <img src={img} />
+            </div> }
             <div className="card__summary">
                 <div className="card__title">{title}</div>
                 <div className="card__subtitle">{subtitle}</div>

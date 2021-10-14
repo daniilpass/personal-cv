@@ -4,13 +4,14 @@ import Card from "../../ui/card";
 import DateRange from "../../ui/dateRange";
 import VtbLogo from "../../../assets/img/vtb.png";
 import GpbLogo from "../../../assets/img/gpb.png";
+import { routes } from "../../../settings";
 
 import "./Experience.css";
 export function Experience() {
     const rangeTemplate = "#F - #T, #Y yrs #M mos"
 
     return (
-        <Block id="experience" title="Experience">
+        <Block id={routes.experience} title="Experience">
             <Card 
                 className="experienceCard"
                 title="Senior Software Engineer"

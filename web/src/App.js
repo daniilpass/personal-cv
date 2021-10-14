@@ -1,7 +1,7 @@
 import React from "react";
 
 import Navigation from "./components/templates/navigation";
-import Landing from "./components/pages";
+import Landing from "./components/pages/Landing";
 
 import "./App.css";
 

@@ -2,11 +2,12 @@ import React from "react";
 import Block from "../../ui/block";
 import Card from "../../ui/card";
 import VtbLogo from "../../../assets/img/vtb.png";
+import { routes } from "../../../settings";
 
 export function TechStack() {
 
     return (
-        <Block id="tech-stack" title="Tech stack">
+        <Block id={routes.techStack} title="Tech stack">
             <Card 
                 title="Super title"
                 subtitle="Subtitle"
