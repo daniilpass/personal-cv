@@ -7,6 +7,7 @@ export function DateRange(props) {
     const displayTemplate = template || "#F - #T, #Y yrs #M mos #D d";
 
     const dateFrom = !! from ? moment(from) : moment();
+    const dateFromOrigin = !! from ? moment(from) : moment();
     const dateTo = !!to ? moment(to) : moment();
 
     const dYears = dateTo.diff(dateFrom, 'year');
@@ -20,7 +21,7 @@ export function DateRange(props) {
     return (
         <>
             {displayTemplate
-                .replace("#F", dateFrom.format("MMM YYYY"))
+                .replace("#F", dateFromOrigin.format("MMM YYYY"))
                 .replace("#T", dateTo.format("MMM YYYY"))
                 .replace("#Y", dYears)
                 .replace("#M", dMonths)
