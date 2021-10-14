@@ -1,17 +1,13 @@
 import React from "react";
 import { Menu, MenuItem } from "./components/menu";
-import Block from "./components/block";
+import Intro from "./components/sections/intro";
 
 import "./App.css";
-import Intro from "./components/intro";
-import Card from "./components/card";
-
-import VtbLogo from "./assets/img/vtb.png";
-
+import Projects from "./components/sections/projects";
+import TechStack from "./components/sections/techStack";
 function App() {
     return (
         <div className="app">
-
             <div className="app__menu-layout">
                 <div className="app_menu">
                     <Menu>
@@ -25,25 +21,13 @@ function App() {
             </div>
             <div className="app__content-layout">
                 <div className="app_content">
-                    <div className="content__intro">
+                    <div className="content__intro-layout">
                         <Intro />
                     </div>
-
-                    <Block id="projects" title="Projects">
-                        <Card 
-                          title="Super title"
-                          subtitle="Subtitle"
-                          text="text text text"
-                          img={VtbLogo} />
-                    </Block>
-
-                    <Block id="tech-stack" title="Tech stack">
-                    </Block>
+                    <Projects />
+                    <TechStack />
                 </div>
-            </div>
-                        
-            
-            
+            </div>            
         </div>        
     )
 }

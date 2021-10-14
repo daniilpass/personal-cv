@@ -1,5 +1,5 @@
 import React from "react";
-import TextTag from "../texttag";
+import TextTag from "../../texttag";
 
 
 import "./Intro.css"
