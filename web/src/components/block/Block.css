@@ -1,6 +1,6 @@
 .block__tag {
-    color: var(--text-dim);
-    font-size: var(--text-size-large);
+    color: var(--text-tag-dark);
+    font-size: var(--text-size-h1);
     font-weight: bold;
     user-select: none;
 }

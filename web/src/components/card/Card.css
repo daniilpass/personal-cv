@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card__image {
+    width: 100px;
+    height: 100px;
+}
+
+.card__image img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card__summary {
+    margin-left: 12px;
+}
+
+.card__title {
+    font-size: var(--text-size-h3);
+    font-weight: bold;
+}
+
+.card__subtitle {
+
+}
+
+.card__text {
+    color: var(--text-primary-light);
+}

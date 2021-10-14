@@ -4,6 +4,9 @@ import Block from "./components/block";
 
 import "./App.css";
 import Intro from "./components/intro";
+import Card from "./components/card";
+
+import VtbLogo from "./assets/img/vtb.png";
 
 function App() {
     return (
@@ -25,51 +28,16 @@ function App() {
                     <div className="content__intro">
                         <Intro />
                     </div>
-                    
 
                     <Block id="projects" title="Projects">
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects
+                        <Card 
+                          title="Super title"
+                          subtitle="Subtitle"
+                          text="text text text"
+                          img={VtbLogo} />
                     </Block>
+
                     <Block id="tech-stack" title="Tech stack">
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects <br/>
-                        Projects
                     </Block>
                 </div>
             </div>

@@ -1,14 +1,21 @@
 :root {
     --background: #303030;
     --background-second: #1e1e1e;
-    --text-primary:#b1d4d4;    
+
+    --text-primary:#b1d4d4;
+    --text-primary-light:#708282;
     --text-tag: #4a9ccb;
-    --text-dim:#404040;
+    --text-tag-dark:#404040;
+
     --text-selection: #264f78;
+
     --text-size: 13pt;
-    --text-size-medium: 26pt;
-    --text-size-large: 39pt;
+    --text-size-h3: 16pt;
+    --text-size-h2: 26pt;
+    --text-size-h1: 39pt;
+
     --safe-space-large: 48px;
+    
     --menu-height: 168px;
 }
 
@@ -63,7 +70,7 @@ a {
 }
 
 .content__intro {
-    min-height: calc(100vh - var(--text-size-large));
+    min-height: calc(100vh - var(--text-size-h1));
     display: flex;
     align-items: center;
 }
