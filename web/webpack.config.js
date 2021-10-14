@@ -27,6 +27,10 @@ module.exports = {
           outputPath: 'app/images',
         },   
       },
+      {
+        test: /\.txt$/i,
+        loader: 'raw-loader',  
+      }
     ],
   },
   resolve: { extensions: ["*", ".js", ".jsx"] },

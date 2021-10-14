@@ -1,3 +1,10 @@
 .footer {
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer__ascii-keyboard {
+    white-space: nowrap;
+    color: var(--text-primary-light);
 }
