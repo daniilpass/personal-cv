@@ -3,10 +3,10 @@ import React from "react";
 import "./Card.css";
 
 export function Card(props) {
-    const { title, subtitle, text, img } = props;
+    const { title, subtitle, text, img, className } = props;
 
     return (
-        <div className="card">
+        <div className={`card ${className || ""}`.trim()}>
             <div className="card__image">
                 {img && <img src={img} />}
             </div>

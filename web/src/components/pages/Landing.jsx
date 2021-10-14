@@ -1,4 +1,5 @@
 import React from "react";
+import Experience from "../templates/experience";
 import Intro from "../templates/intro";
 import Projects from "../templates/projects";
 import TechStack from "../templates/techStack";
@@ -12,6 +13,7 @@ export function Landing(props) {
             </div>
             <Projects />
             <TechStack />
+            <Experience />
         </div>
     )
 }
