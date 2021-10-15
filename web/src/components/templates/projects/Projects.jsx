@@ -13,16 +13,16 @@ export function Projects() {
             <CardLink 
                 cardClassName="project-card"
                 title="Beat Notation"
-                subtitle="Subtitle"
-                text="text text text"
+                subtitle="React"
+                text={<>Online drum editor with realtime notation <br/> https://beatnotation.me/</>}
                 img={BeatLogo}
                 link="https://beatnotation.me/" />
 
             <CardLink
                 cardClassName="project-card"
                 title="Ka`Sha Team"
-                subtitle="Subtitle"
-                text="text text text"
+                subtitle="HTML5"
+                text={<>Friends squad website <br/> https://kasha.team/</>}
                 img={KashaLogo}
                 link="https://kasha.team/" />
         </Block>
