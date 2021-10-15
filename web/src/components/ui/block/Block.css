@@ -5,6 +5,10 @@
     user-select: none;
 }
 
+/* .block .block__tag:last-child {
+    text-align: right;
+} */
+
 .block__content {
-    margin: 24px;
+    margin: 24px 24px 24px 48px;
 }
