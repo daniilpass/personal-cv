@@ -1,0 +1,24 @@
+.contact {
+    display: inline-block;
+}
+
+.contact__image {
+    vertical-align: middle;
+    margin-right: 6px;
+    width: auto;
+    height: auto;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.contact__title {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    font-size: var(--text-size-h3);    
+}
+
+.contact:hover .contact__title{
+    text-decoration: underline; 
+}

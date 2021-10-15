@@ -33,3 +33,18 @@
     color: var(--text-tag);
 }
 
+.intro__contacts .contact {
+    margin-top: 24px;
+}
+
+.intro__contacts .contact {
+    margin-right: 24px;
+}
+
+.intro__contacts .contact:last-child {
+    margin-right: 0;
+}
+
+.intro__contacts img {
+    filter: grayscale(1) contrast(1);
+}
