@@ -5,7 +5,8 @@ export function DateRange(props) {
     const { 
         from, 
         to, 
-        template = "#F - #T, #Y yrs #M mos #D d"
+        template = "#F - #T, #Y yrs #M mos #D d",
+        presentText = "Present"
     } = props;
 
     const dateFrom = !! from ? moment(from) : moment();
@@ -24,7 +25,7 @@ export function DateRange(props) {
         <>
             {template
                 .replace("#F", dateFromOrigin.format("MMM YYYY"))
-                .replace("#T", dateTo.format("MMM YYYY"))
+                .replace("#T", !!to ? dateTo.format("MMM YYYY") : presentText )
                 .replace("#Y", dYears)
                 .replace("#M", dMonths)
                 .replace("#D", dDays)
