@@ -3,6 +3,7 @@
     font-size: var(--text-size-h1);
     font-weight: bold;
     user-select: none;
+    cursor: pointer;
 }
 
 /* .block .block__tag:last-child {
