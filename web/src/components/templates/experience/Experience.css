@@ -1,3 +1,7 @@
-.experienceCard {
-    margin: 12px 0;
+.experience-card {
+    margin: 24px 0;
+}
+
+.experience-card .card__image {    
+    filter: grayscale(1) contrast(0);
 }

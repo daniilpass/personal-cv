@@ -6,10 +6,6 @@
     align-items: center;
 }
 
-.page-landing .card__image {    
-    filter: grayscale(1) contrast(0);
-}
-
 .page-landing .block {    
     margin-bottom: 48px;
 }

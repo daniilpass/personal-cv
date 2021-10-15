@@ -1,0 +1,11 @@
+.project-card {
+    margin: 24px 0;
+}
+
+.project-card .card__image {    
+    filter: grayscale(1) contrast(1);
+}
+
+.project-card:hover .card__image {    
+    filter: none;
+}

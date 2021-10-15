@@ -7,7 +7,7 @@ export function Block(props) {
 
     return (
         <div id={id} className="block">
-            <TextTag name={title.toLocaleLowerCase()} tagClassName="block__tag">
+            <TextTag name={title} tagClassName="block__tag">
                 <div className="block__content">
                     {props.children}
                 </div>

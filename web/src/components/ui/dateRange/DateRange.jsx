@@ -2,9 +2,11 @@ import React from "react";
 import moment from "moment";
 
 export function DateRange(props) {
-    const { from, to, template } = props;
-
-    const displayTemplate = template || "#F - #T, #Y yrs #M mos #D d";
+    const { 
+        from, 
+        to, 
+        template = "#F - #T, #Y yrs #M mos #D d"
+    } = props;
 
     const dateFrom = !! from ? moment(from) : moment();
     const dateFromOrigin = !! from ? moment(from) : moment();
@@ -20,7 +22,7 @@ export function DateRange(props) {
 
     return (
         <>
-            {displayTemplate
+            {template
                 .replace("#F", dateFromOrigin.format("MMM YYYY"))
                 .replace("#T", dateTo.format("MMM YYYY"))
                 .replace("#Y", dYears)
