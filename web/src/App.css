@@ -41,10 +41,16 @@ a {
     color: var(--text-primary);
 }
 
-/*Menu positions*/
+/*App */
 .app {
     display: flex;
     max-width: 1600px;
     margin: 0 auto;
-    padding-right: var(--safe-space-large);
+    padding: 0 var(--safe-space-large);
+}
+
+@media screen and (max-width: 950px) {
+    .app__nav-layout {  
+        display: none;
+    }
 }
