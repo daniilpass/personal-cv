@@ -7,7 +7,7 @@ import { routes } from "../../../settings";
 export function TechStack() {
 
     return (
-        <Block id={routes.techStack} title="tech stack">
+        <Block id={routes.techStack} title="techstack">
             <Card 
                 title="Super title"
                 subtitle="Subtitle"
