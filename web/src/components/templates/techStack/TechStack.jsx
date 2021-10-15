@@ -29,12 +29,10 @@ export function TechStack() {
     ]
 
     return (
-        <div className="techstack">
-            <Block id={routes.techStack} title="techstack">
-                <List className="techstack__main-skills" items={mainSkills} />
-                <List className="techstack__other-skills" items={otherSkills} />
-            </Block>
-        </div>
+        <Block id={routes.techStack} title="techstack">
+            <List className="techstack__main-skills" items={mainSkills} />
+            <List className="techstack__other-skills" items={otherSkills} />
+        </Block>
         
 )
 }

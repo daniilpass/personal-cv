@@ -24,6 +24,7 @@ html {
 }
 
 body {
+    cursor: default;
     background-color: var(--background);
     font-family: Consolas, monaco, monospace;
     font-size: var(--text-size);    

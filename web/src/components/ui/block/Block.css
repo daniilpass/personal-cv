@@ -1,9 +1,11 @@
 .block__tag {
-    color: var(--text-tag-dark);
-    font-size: var(--text-size-h1);
-    font-weight: bold;
+    display: inline-block;
     user-select: none;
     cursor: pointer;
+    color: var(--text-tag-dark);
+    font-size: var(--text-size-h1);
+    font-weight: bold;  
+    margin-top: -0.2em;  
 }
 
 /* .block .block__tag:last-child {

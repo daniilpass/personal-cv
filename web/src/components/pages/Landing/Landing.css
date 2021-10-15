@@ -1,11 +1,19 @@
 
 
 .page-landing__intro-layout {
-    min-height: calc(100vh - var(--text-size-h1));
+    min-height: calc(100vh - var(--text-size-h1) - 24px);
     display: flex;
     align-items: center;
 }
 
 .page-landing .block {    
-    margin-bottom: 48px;
+    padding-top: 12px;
+    margin-bottom: calc(-1 * var(--safe-space-large) - 12px);
 }
+
+.page-landing > .block ~ .block  {    
+    padding-top: calc(2 * var(--safe-space-large) + 12px);
+    margin-bottom: calc(-1 * var(--safe-space-large) - 12px);
+}
+
+
