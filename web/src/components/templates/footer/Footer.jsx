@@ -14,7 +14,6 @@ export function Footer(props) {
         htmlText = htmlText.replaceAll(`&nbsp;${kUpper}&nbsp;`, `&nbsp;<b style='color: var(--text-tag)'>${kUpper}</b>&nbsp;`);
     });    
             
-    console.log(htmlText);
     return (
         <div className="footer">
             <div className="footer__ascii-keyboard" 
