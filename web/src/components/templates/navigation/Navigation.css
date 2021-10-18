@@ -1,4 +1,4 @@
-.app_nav{    
+.app-nav{    
     display: inline-block;
     position: sticky;
     top: min(0px, calc(-50vh + var(--menu-height) / 2 + var(--safe-space-large)));    
