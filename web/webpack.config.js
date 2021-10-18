@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
@@ -41,6 +42,17 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: "./app/css/[name].css"
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { 
+          from: "public", 
+          to: "public",        
+          globOptions: {
+            ignore: ["**/index.html*"],
+          }, 
+        },
+      ],
     }),
   ],
 };
