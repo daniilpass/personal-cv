@@ -1,3 +1,9 @@
 import { routes } from "./routes";
+import { languages, resumei18n, navigationi18n } from "./i18n";
 
-export { routes };
+export { 
+    routes, 
+    languages, 
+    resumei18n,
+    navigationi18n,
+ };

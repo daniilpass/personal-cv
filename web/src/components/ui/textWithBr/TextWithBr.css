@@ -1,0 +1,14 @@
+
+.text-wb__text {
+    display: inline-block;
+}
+
+.text-wb__br {
+    color: var(--text-tag);
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.text-wb__br-tag {
+    color: var(--text-tag);
+}

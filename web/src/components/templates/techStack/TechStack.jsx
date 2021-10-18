@@ -1,37 +1,16 @@
 import React from "react";
 import Block from "../../ui/block";
-import { routes } from "../../../settings";
 import List from "../../ui/list";
-
+import { routes } from "../../../settings";
 import "./TechStack.css";
-export function TechStack() {
-    
-    const mainSkills = [
-        "C#",
-        "React",
-        "ASP.NET Web API"
-    ]
 
-    const otherSkills = [
-        ".NET",
-        "ASP.NET",
-        "Entity Framework",
-        "Microsoft SQL Server",
-        "Transact-SQL (T-SQL)",
-        "Internet Information Services (IIS)",
-        "Windows Services",
-        "REST APIs",
-        "SOAP",
-        "Webpack",
-        "JavaScript",
-        "HTML",
-        "CSS",
-    ]
+export function TechStack(props) {
+    const { data } = props;
 
     return (
         <Block id={routes.techStack} title="techstack">
-            <List className="techstack__main-skills" items={mainSkills} />
-            <List className="techstack__other-skills" items={otherSkills} />
+            <List className="techstack__main-skills" items={data.mainSkills} />
+            <List className="techstack__other-skills" items={data.otherSkills} />
         </Block>
         
 )

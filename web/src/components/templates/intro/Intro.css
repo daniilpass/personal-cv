@@ -23,16 +23,6 @@
     font-size: var(--text-size-h1);
 }
 
-.intro__br {
-    color: var(--text-tag);
-    display: inline-block;
-    margin-bottom: 4px;
-}
-
-.intro__br-tag {
-    color: var(--text-tag);
-}
-
 .intro__contacts .contact {
     margin-top: 24px;
 }
