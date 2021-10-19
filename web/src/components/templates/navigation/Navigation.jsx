@@ -29,7 +29,9 @@ export function Navigation(props) {
                 <MenuItem title={nav_i18n.education} link={`#${routes.education}`}/>
             </Menu>
             
-            <LanguageBar languages={languages} selectedValue={language} onLaguageChange={handleLanguageChange} />    
+            {languages.length > 1 
+                ? <LanguageBar languages={languages} selectedValue={language} onLaguageChange={handleLanguageChange} />    
+                : <></>}
         </div>
     )
 }
