@@ -9,3 +9,14 @@
     vertical-align: top;
     background-color: var(--background-second);
 }
+
+.app-nav .language-bar {
+    text-align: center;
+    margin-top: 12px;
+    color: var(--text-primary-light);
+}
+
+.app-nav .language-bar__item--active {
+    color: var(--text-primary);
+    font-weight: normal;
+}

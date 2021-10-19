@@ -6,7 +6,7 @@ import { routes } from "../../../settings";
 import "./Experience.css";
 
 export function Experience(props) {
-    const { data } = props;
+    const { data, momentLocale } = props;
 
     return (
         <Block id={routes.experience} title="experience">
@@ -17,7 +17,7 @@ export function Experience(props) {
                         className="experience-card"
                         title={e.title}
                         subtitle={e.subtitle}
-                        text={<><DateRange from={e.dateFrom} to={e.dateTo} template={e.rangeTemplate} /><br/>{e.location}</>}
+                        text={<><DateRange from={e.dateFrom} to={e.dateTo} locale={momentLocale} /><br/>{e.location}</>}
                         img={e.img} />
                 ))
             }

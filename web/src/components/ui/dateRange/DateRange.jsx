@@ -5,31 +5,46 @@ export function DateRange(props) {
     const { 
         from, 
         to, 
-        template = "#F - #T, #Y yrs #M mos #D d",
-        presentText = "Present"
+        showDateDiff = true,
+        locale = {
+            baseLang: "en",        
+            present: "present",
+            abbrYears: "yrs",
+            abbrMonths: "mos"
+        }
     } = props;
 
-    const dateFrom = !! from ? moment(from) : moment();
-    const dateFromOrigin = !! from ? moment(from) : moment();
+    // Get moment
+    const dateFrom = !!from ? moment(from) : moment();
     const dateTo = !!to ? moment(to) : moment();
 
-    const dYears = dateTo.diff(dateFrom, 'year');
-    dateFrom.add(dYears, 'years');
+    // Apply locale
+    dateFrom.locale(locale.baseLang);
+    dateTo.locale(locale.baseLang);
 
-    const dMonths = dateTo.diff(dateFrom, 'months');
-    dateFrom.add(dMonths, 'months');
+    // Calc diffs    
+    const dateFromTmp = !!from ? moment(from) : moment();
+    const dYears = dateTo.diff(dateFromTmp, 'year');
+    dateFromTmp.add(dYears, 'years');
 
-    const dDays = dateTo.diff(dateFrom, 'days');
+    const dMonths = dateTo.diff(dateFromTmp, 'months');
+    dateFromTmp.add(dMonths, 'months');
+    //const dDays = dateTo.diff(dateFrom, 'days');
 
-    return (
-        <>
-            {template
-                .replace("#F", dateFromOrigin.format("MMM YYYY"))
-                .replace("#T", !!to ? dateTo.format("MMM YYYY") : presentText )
-                .replace("#Y", dYears)
-                .replace("#M", dMonths)
-                .replace("#D", dDays)
-            }
-        </>
-    )
+    // Prepare template
+    let template = "#F - #T";
+    if (showDateDiff) {
+        template += ", #Y #abbrYears #M #abbrMonths";
+    }
+    
+    // Get text
+    let text = template
+        .replace("#F", dateFrom.format("MMM YYYY"))
+        .replace("#T", !!to ? dateTo.format("MMM YYYY") : locale.present)
+        .replace("#Y", dYears)
+        .replace("#abbrYears", locale.abbrYears)
+        .replace("#M", dMonths)
+        .replace("#abbrMonths", locale.abbrMonths);
+
+    return (<>{text}</>)
 }

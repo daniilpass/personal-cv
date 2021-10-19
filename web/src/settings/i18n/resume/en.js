@@ -8,13 +8,6 @@ import VtbLogo from "../../../assets/img/vtb.png";
 import GpbLogo from "../../../assets/img/gpb.png";
 
 export const en = {
-    navigation: {
-        hello: "Hello",
-        projects: "Projects",
-        techstack: "Tech stack",
-        experience: "Experience",
-        education: "Education",
-    },
     aboutMe: {
         greeting: "Hello",
         iam: "I'm Daniil",
@@ -53,7 +46,7 @@ export const en = {
         {
             title: "Ka`Sha Team",
             subtitle: "HTML5",
-            text: <>Friends squad website <br/> https://kasha.team/</>,
+            text: <>Gaming community website<br/> https://kasha.team/</>,
             img: KashaLogo,
             link: "https://kasha.team/"
         }
@@ -86,8 +79,7 @@ export const en = {
             subtitle:"Gazprombank",
             dateFrom: "2019-05-01" ,
             location: "Moscow, Russia",
-            img: GpbLogo,            
-            rangeTemplate: "#F - #T, #Y yrs #M mos"
+            img: GpbLogo
         },
         {
             title: "Lead Specialist / Developer",
@@ -95,8 +87,7 @@ export const en = {
             dateFrom: "2015-10-01",
             dateTo: "2019-05-01",
             location: "Moscow, Russia",         
-            img: VtbLogo,
-            rangeTemplate: "#F - #T, #Y yrs #M mos"
+            img: VtbLogo
         }
     ],
     education: [
@@ -105,16 +96,14 @@ export const en = {
             subtitle: "Master's degree, Information Technology",
             dateFrom: "2015-09-01",
             dateTo: "2017-07-01",
-            location: "Moscow, Russia",
-            rangeTemplate: "#F - #T"
+            location: "Moscow, Russia"
         },
         {
             title: 'NUST "MISIS"',
             subtitle: "Bachelor's degree, Information Technology",
             dateFrom: "2011-09-01",
             dateTo: "2015-07-01",
-            location: "Moscow, Russia",
-            rangeTemplate: "#F - #T"
+            location: "Moscow, Russia"
         }
     ],
     footer: {

@@ -1,0 +1,12 @@
+.language-bar__item {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.language-bar__sep{
+    display: inline-block;
+}
+
+.language-bar__item--active {
+    font-weight: bold;
+}

@@ -1,7 +1,7 @@
 export const ru = {
-    hello: "Привет",
+    hello: "Hello, World",
     projects: "Проекты",
-    techstack: "Стэк",
+    techstack: "Технологии",
     experience: "Карьера",
     education: "Образование",
 }

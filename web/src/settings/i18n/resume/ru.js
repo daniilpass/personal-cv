@@ -8,21 +8,14 @@ import VtbLogo from "../../../assets/img/vtb.png";
 import GpbLogo from "../../../assets/img/gpb.png";
 
 export const ru = {
-    navigation: {
-        hello: "Привет",
-        projects: "Проекты",
-        techstack: "Стэк",
-        experience: "Карьера",
-        education: "Образование",
-    },
     aboutMe: {
         greeting: "Привет",
         iam: "Я Даниил",
         position: "full-stack .NET разработчик",
         about_rows: [
-            "I have strong skills in object-oriented programming, knowledge of design patterns and data structures.",
-            "Moreover, I have experience in parallel and asynchronous programming.",
-            "Familiar with the web development."
+            "Обладаю сильными навыками ООП, знаниями шаблонов проектирования и структур данных.",
+            "Кроме того, имею опыт параллельного и асинхронного программирования.",
+            "Знаком с архитектурой и разработкой веб приложений."
         ]
     },
     contacts:[
@@ -46,14 +39,14 @@ export const ru = {
         {
             title :"Beat Notation",
             subtitle: "React",
-            text: <>Online drum editor with realtime notation <br/> https://beatnotation.me/</>,
+            text: <>Онлайн редактор ударных с просмотром нот в реальном времени<br/> https://beatnotation.me/</>,
             img: BeatLogo,
             link: "https://beatnotation.me/"
         },
         {
             title: "Ka`Sha Team",
             subtitle: "HTML5",
-            text: <>Friends squad website <br/> https://kasha.team/</>,
+            text: <>Сайт игрового сообщества <br/> https://kasha.team/</>,
             img: KashaLogo,
             link: "https://kasha.team/"
         }
@@ -82,39 +75,35 @@ export const ru = {
     },
     experience: [
         {
-            title:"Senior Software Engineer",
-            subtitle:"Gazprombank",
+            title:"Главный инженер разработки",
+            subtitle:"Газпромбанк",
             dateFrom: "2019-05-01" ,
-            location: "Moscow, Russia",
-            img: GpbLogo,            
-            rangeTemplate: "#F - #T, #Y yrs #M mos"
+            location: "Москва, Россия",
+            img: GpbLogo
         },
         {
-            title: "Lead Specialist / Developer",
-            subtitle: "VTB Bank",
+            title: "Ведущий специалист / Разработчик",
+            subtitle: "Банк ВТБ",
             dateFrom: "2015-10-01",
             dateTo: "2019-05-01",
-            location: "Moscow, Russia",         
-            img: VtbLogo,
-            rangeTemplate: "#F - #T, #Y yrs #M mos"
+            location: "Москва, Россия",         
+            img: VtbLogo
         }
     ],
     education: [
         {
-            title: 'NUST "MISIS"',
-            subtitle: "Master's degree, Information Technology",
+            title: 'НИТУ "МИСИС"',
+            subtitle: "Магистр, Информационные технологии",
             dateFrom: "2015-09-01",
             dateTo: "2017-07-01",
-            location: "Moscow, Russia",
-            rangeTemplate: "#F - #T"
+            location: "Москва, Россия"
         },
         {
-            title: 'NUST "MISIS"',
-            subtitle: "Bachelor's degree, Information Technology",
+            title: 'НИТУ "МИСИС"',
+            subtitle: "Бакалавр,  Информационные технологии",
             dateFrom: "2011-09-01",
             dateTo: "2015-07-01",
-            location: "Moscow, Russia",
-            rangeTemplate: "#F - #T"
+            location: "Москва, Россия"
         }
     ],
     footer: {
