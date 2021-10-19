@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Menu, MenuItem } from "../../ui/menu";
 import LanguageBar from "../../ui/languageBar";
@@ -18,6 +18,10 @@ export function Navigation(props) {
             dispatch.language.setLanguage(value);
         }
     }
+
+    useEffect(() => {
+        document.title=nav_i18n.pageTitle;
+    }, [nav_i18n])
 
     return (
         <div className="app-nav">

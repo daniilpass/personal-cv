@@ -1,4 +1,5 @@
-export const en = {    
+export const en = {   
+    pageTitle: "Daniil Dev", 
     hello: "Hello, World",
     projects: "Projects",
     techstack: "Tech stack",
