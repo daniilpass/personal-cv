@@ -1,6 +1,9 @@
 # Description
 Personal CV site on React hooks  
 
+# Link
+[https://daniilpass.dev/](https://daniilpass.dev/)
+
 # Run and Build
 `cd web` - Go to the web project folder.  
 `npm install` - Install all dependencies.  

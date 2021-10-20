@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "file-loader": "^6.2.0",
-    "raw-loader": "^4.0.2"
-  },
-  "dependencies": {
-    "moment": "^2.29.1"
-  }
-}

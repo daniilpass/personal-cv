@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const settings = require('./settings');
 
 module.exports = {
   entry: "./src/index.js",
@@ -38,7 +39,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
-      minify: false
+      minify: false,
+      settings: settings
     }),
     new MiniCssExtractPlugin({
       filename: "./app/css/[name].css"
