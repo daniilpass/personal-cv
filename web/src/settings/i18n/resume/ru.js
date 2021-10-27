@@ -3,6 +3,7 @@ import BitbucketLogo from "../../../assets/img/bitbucket.png";
 import TelegramLogo from "../../../assets/img/telegram.png"
 import LinkedinLogo from "../../../assets/img/linkedin.png"
 import BeatLogo from "../../../assets/img/beat.png";
+import AsciiLogo from "../../../assets/img/ascii.png";
 import KashaLogo from "../../../assets/img/kasha.png";
 import VtbLogo from "../../../assets/img/vtb.png";
 import GpbLogo from "../../../assets/img/gpb.png";
@@ -38,10 +39,17 @@ export const ru = {
     projects: [
         {
             title :"Beat Notation",
-            subtitle: "React",
+            subtitle: "React, JavaScript",
             text: <>Онлайн редактор ударных с просмотром нот в реальном времени<br/> https://beatnotation.me/</>,
             img: BeatLogo,
             link: "https://beatnotation.me/"
+        },
+        {
+            title: "Image to ASCII",
+            subtitle: "React, JavaScript",
+            text: <>Онлайн конвертер изображений в текст <br/> https://ascii.daniilpass.dev/</>,
+            img: AsciiLogo,
+            link: "https://ascii.daniilpass.dev/"
         },
         {
             title: "Ka`Sha Team",
