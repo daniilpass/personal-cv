@@ -7,6 +7,7 @@ import AsciiLogo from "../../../assets/img/ascii.png";
 import KashaLogo from "../../../assets/img/kasha.png";
 import VtbLogo from "../../../assets/img/vtb.png";
 import GpbLogo from "../../../assets/img/gpb.png";
+import VoliLogo from "../../../assets/img/voli.jpeg";
 
 export const en = {
     aboutMe: {
@@ -57,6 +58,13 @@ export const en = {
             text: <>Gaming community website<br/> https://kasha.team/</>,
             img: KashaLogo,
             link: "https://kasha.team/"
+        },
+        {
+            title: "Voli channel",
+            subtitle: "HTML5",
+            text: <>Website for "Voli channel" streamer <br/> https://voli-channel.ru/</>,
+            img: VoliLogo,
+            link: "https://voli-channel.ru/"
         }
     ],
     techstack:{

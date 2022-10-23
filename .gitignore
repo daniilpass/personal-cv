@@ -2,3 +2,5 @@
 node_modules/
 # Distribution directories
 build/
+#Mac
+.DS_store
