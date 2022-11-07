@@ -33,7 +33,7 @@ export function DateRange(props) {
 
     // Prepare template
     let template = "#F - #T";
-    if (showDateDiff) {
+    if (showDateDiff && (dYears > 0 || dMonths > 0)) {
         template += ", #Y #abbrYears #M #abbrMonths";
     }
     
