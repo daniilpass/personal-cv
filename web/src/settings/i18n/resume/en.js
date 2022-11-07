@@ -8,6 +8,7 @@ import KashaLogo from "../../../assets/img/kasha.png";
 import VtbLogo from "../../../assets/img/vtb.png";
 import GpbLogo from "../../../assets/img/gpb.png";
 import VoliLogo from "../../../assets/img/voli.jpeg";
+import YandexLogo from "../../../assets/img/yandex.png";
 
 export const en = {
     aboutMe: {
@@ -91,9 +92,17 @@ export const en = {
     },
     experience: [
         {
+            title: "Frontend developer",
+            subtitle: "Yandex",
+            dateFrom: "2022-11-09" ,
+            location: "Moscow, Russia",
+            img: YandexLogo
+        },
+        {
             title:"Senior Software Engineer",
             subtitle:"Gazprombank",
-            dateFrom: "2019-05-01" ,
+            dateFrom: "2019-05-01",
+            dateTo: "2022-11-07",
             location: "Moscow, Russia",
             img: GpbLogo
         },

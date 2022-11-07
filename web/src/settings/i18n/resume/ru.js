@@ -8,6 +8,7 @@ import KashaLogo from "../../../assets/img/kasha.png";
 import VtbLogo from "../../../assets/img/vtb.png";
 import GpbLogo from "../../../assets/img/gpb.png";
 import VoliLogo from "../../../assets/img/voli.jpeg";
+import YandexLogo from "../../../assets/img/yandex.png";
 
 export const ru = {
     aboutMe: {
@@ -91,9 +92,17 @@ export const ru = {
     },
     experience: [
         {
-            title:"Главный инженер разработки",
-            subtitle:"Газпромбанк",
+            title: "Разработчик интерфейсов",
+            subtitle: "Яндекс",
+            dateFrom: "2022-11-09" ,
+            location: "Москва, Россия",
+            img: YandexLogo
+        },
+        {
+            title: "Главный инженер разработки",
+            subtitle: "Газпромбанк",
             dateFrom: "2019-05-01" ,
+            dateTo: "2022-11-07",
             location: "Москва, Россия",
             img: GpbLogo
         },
