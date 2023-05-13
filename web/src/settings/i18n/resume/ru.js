@@ -26,7 +26,7 @@ export const ru = {
     contacts:[
         {            
             title: "Bitbucket",
-            link: "https://bitbucket.org/daniilpass",
+            link: "https://bitbucket.org/daniilpass/workspace/repositories",
             img: BitbucketLogo
         },
         {
@@ -44,9 +44,9 @@ export const ru = {
         {
             title :"Beat Notation",
             subtitle: "React, JavaScript",
-            text: <>Онлайн редактор ударных с просмотром нот в реальном времени<br/> https://beatnotation.me/</>,
+            text: <>Онлайн редактор ударных с просмотром нот в реальном времени<br/> https://beat.daniilpass.dev/</>,
             img: BeatLogo,
-            link: "https://beatnotation.me/"
+            link: "https://beat.daniilpass.dev/"
         },
         {
             title: "Image to ASCII",
@@ -58,9 +58,9 @@ export const ru = {
         {
             title: "Ka`Sha Team",
             subtitle: "HTML5",
-            text: <>Сайт игрового сообщества <br/> https://kasha.team/</>,
+            text: <>Сайт игрового сообщества <br/> https://kasha.daniilpass.dev/</>,
             img: KashaLogo,
-            link: "https://kasha.team/"
+            link: "https://kasha.daniilpass.dev/"
         },
         {
             title: "Voli channel",
