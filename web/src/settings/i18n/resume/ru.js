@@ -1,4 +1,7 @@
 import React from "react";
+
+import {TECHSTACK} from "./common";
+
 import {
     BitbucketLogo,
     TelegramLogo,
@@ -16,11 +19,10 @@ export const ru = {
     aboutMe: {
         greeting: "Привет",
         iam: "Я Даниил",
-        position: "full-stack .NET разработчик",
+        position: "full-stack разработчик",
         about_rows: [
             "Обладаю сильными навыками ООП, знаниями шаблонов проектирования и структур данных.",
-            "Кроме того, имею опыт параллельного и асинхронного программирования.",
-            "Знаком с архитектурой и разработкой веб приложений."
+            "Имею опыт комплексной разработки приложений: проектирование баз данных, написание серверной и клиентской частей, интеграция со сторонними системами.",
         ]
     },
     contacts:[
@@ -70,28 +72,7 @@ export const ru = {
             link: "https://voli-channel.ru/"
         }
     ],
-    techstack:{
-        mainSkills: [
-            "C#",
-            "React",
-            "ASP.NET Web API"
-        ],
-        otherSkills: [
-            ".NET",
-            "ASP.NET",
-            "Entity Framework",
-            "Microsoft SQL Server",
-            "Transact-SQL (T-SQL)",
-            "Internet Information Services (IIS)",
-            "Windows Services",
-            "REST APIs",
-            "SOAP",
-            "Webpack",
-            "JavaScript",
-            "HTML",
-            "CSS",
-        ]
-    },
+    techstack: TECHSTACK,
     experience: [
         {
             title: "Разработчик интерфейсов",
