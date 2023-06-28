@@ -1,4 +1,4 @@
-import BitbucketLogo from "../assets/img/bitbucket.png";
+import GithubLogo from "../assets/img/github.png";
 import TelegramLogo from "../assets/img/telegram.png"
 import LinkedinLogo from "../assets/img/linkedin.png"
 import BeatLogo from "../assets/img/beat.png";
@@ -10,7 +10,7 @@ import VoliLogo from "../assets/img/voli.jpeg";
 import YandexLogo from "../assets/img/yandex.png";
 
 export  {
-    BitbucketLogo,
+    GithubLogo,
     TelegramLogo,
     LinkedinLogo,
     BeatLogo,

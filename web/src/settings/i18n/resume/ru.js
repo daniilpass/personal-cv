@@ -1,11 +1,8 @@
 import React from "react";
 
-import {TECHSTACK} from "./common";
+import {TECHSTACK, CONTACTS} from "./common";
 
 import {
-    BitbucketLogo,
-    TelegramLogo,
-    LinkedinLogo,
     BeatLogo,
     AsciiLogo,
     KashaLogo,
@@ -25,23 +22,7 @@ export const ru = {
             "Имею опыт комплексной разработки приложений: проектирование баз данных, написание серверной и клиентской частей, интеграция со сторонними системами.",
         ]
     },
-    contacts:[
-        {            
-            title: "Bitbucket",
-            link: "https://bitbucket.org/daniilpass/workspace/repositories",
-            img: BitbucketLogo
-        },
-        {
-            title: "Telegram",
-            link: "https://t.me/daniilpass",
-            img: TelegramLogo
-        },
-        {
-            title: "LinkedIn",
-            link: "https://linkedin.com/in/daniilpass",
-            img: LinkedinLogo
-        }
-    ],
+    contacts: CONTACTS,
     projects: [
         {
             title :"Beat Notation",

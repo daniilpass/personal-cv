@@ -36,5 +36,5 @@
 }
 
 .intro__contacts img {
-    filter: grayscale(1) contrast(1);
+    filter: grayscale(1) contrast(1) brightness(.9);
 }
