@@ -9,7 +9,8 @@ import {
     VtbLogo,
     GpbLogo,
     VoliLogo,
-    YandexLogo
+    YandexLogo,
+    MyOfficeLogo
 } from "../../../assets/logos";
 
 export const ru = {
@@ -27,38 +28,46 @@ export const ru = {
         {
             title :"Beat Notation",
             subtitle: "React, JavaScript",
-            text: <>Онлайн редактор ударных с просмотром нот в реальном времени<br/> https://beat.daniilpass.dev/</>,
+            text: <>Онлайн редактор ударных с просмотром нот в реальном времени<br/> https://beat.anydany.ru/</>,
             img: BeatLogo,
-            link: "https://beat.daniilpass.dev/"
+            link: "https://beat.anydany.ru/"
         },
         {
             title: "Image to ASCII",
             subtitle: "React, JavaScript",
-            text: <>Онлайн конвертер изображений в текст <br/> https://ascii.daniilpass.dev/</>,
+            text: <>Онлайн конвертер изображений в текст <br/> https://ascii.anydany.ru/</>,
             img: AsciiLogo,
-            link: "https://ascii.daniilpass.dev/"
+            link: "https://ascii.anydany.ru/"
         },
         {
             title: "Ka`Sha Team",
             subtitle: "HTML5",
-            text: <>Сайт игрового сообщества <br/> https://kasha.daniilpass.dev/</>,
+            text: <>Сайт игрового сообщества <br/> https://kasha.anydany.ru/</>,
             img: KashaLogo,
-            link: "https://kasha.daniilpass.dev/"
+            link: "https://kasha.anydany.ru/"
         },
-        {
-            title: "Voli channel",
-            subtitle: "HTML5",
-            text: <>Сайт для стримера "Voli channel" <br/> https://voli-channel.ru/</>,
-            img: VoliLogo,
-            link: "https://voli-channel.ru/"
-        }
+        // {
+        //     title: "Voli channel",
+        //     subtitle: "HTML5",
+        //     text: <>Сайт для стримера "Voli channel" <br/> https://voli-channel.ru/</>,
+        //     img: VoliLogo,
+        //     link: "https://voli-channel.ru/"
+        // }
     ],
     techstack: TECHSTACK,
     experience: [
         {
+            title: "Старший инженер-программист",
+            subtitle: "МойОфис",
+            dateFrom: "2023-10-09",
+            location: "Москва, Россия",
+            img: MyOfficeLogo
+        },
+        {
             title: "Разработчик интерфейсов",
             subtitle: "Яндекс",
-            dateFrom: "2022-11-09" ,
+            dateFrom: "2022-11-09",
+            dateTo: "2023-10-09",
             location: "Москва, Россия",
             img: YandexLogo
         },
@@ -97,7 +106,7 @@ export const ru = {
     ],
     footer: {
         glowKeys: [
-            "B", "y", "e"
+            "d", "a", "n", "i", "j", "k", "e"
         ]
     }
 }

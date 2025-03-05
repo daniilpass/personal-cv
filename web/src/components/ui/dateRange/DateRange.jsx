@@ -34,7 +34,9 @@ export function DateRange(props) {
     // Prepare template
     let template = "#F - #T";
     if (showDateDiff && (dYears > 0 || dMonths > 0)) {
-        template += ", #Y #abbrYears #M #abbrMonths";
+        template += ",";
+        template += dYears > 0 ? " #Y #abbrYears" : "";
+        template += dMonths > 0 ? " #M #abbrMonths" : "";
     }
     
     // Get text

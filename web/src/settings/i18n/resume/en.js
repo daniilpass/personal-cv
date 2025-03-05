@@ -9,7 +9,8 @@ import {
     VtbLogo,
     GpbLogo,
     VoliLogo,
-    YandexLogo
+    YandexLogo,
+    MyOfficeLogo
 } from "../../../assets/logos";
 
 export const en = {
@@ -27,38 +28,46 @@ export const en = {
         {
             title :"Beat Notation",
             subtitle: "React, JavaScript",
-            text: <>Online drum editor with realtime notation <br/> https://beat.daniilpass.dev/</>,
+            text: <>Online drum editor with realtime notation <br/> https://beat.anydany.ru/</>,
             img: BeatLogo,
-            link: "https://beat.daniilpass.dev/"
+            link: "https://beat.anydany.ru/"
         },
         {
             title: "Image to ASCII",
             subtitle: "React, JavaScript",
-            text: <>Online image to text converter <br/> https://ascii.daniilpass.dev/</>,
+            text: <>Online image to text converter <br/> https://ascii.anydany.ru/</>,
             img: AsciiLogo,
-            link: "https://ascii.daniilpass.dev/"
+            link: "https://ascii.anydany.ru/"
         },
         {
             title: "Ka`Sha Team",
             subtitle: "HTML5",
-            text: <>Gaming community website<br/> https://kasha.daniilpass.dev/</>,
+            text: <>Gaming community website<br/> https://kasha.anydany.ru/</>,
             img: KashaLogo,
-            link: "https://kasha.daniilpass.dev/"
+            link: "https://kasha.anydany.ru/"
         },
-        {
-            title: "Voli channel",
-            subtitle: "HTML5",
-            text: <>Website for "Voli channel" streamer <br/> https://voli-channel.ru/</>,
-            img: VoliLogo,
-            link: "https://voli-channel.ru/"
-        }
+        // {
+        //     title: "Voli channel",
+        //     subtitle: "HTML5",
+        //     text: <>Website for "Voli channel" streamer <br/> https://voli-channel.ru/</>,
+        //     img: VoliLogo,
+        //     link: "https://voli-channel.ru/"
+        // }
     ],
     techstack: TECHSTACK,
     experience: [
         {
+            title: "Senior Software Engineer",
+            subtitle: "MyOffice",
+            dateFrom: "2023-10-09" ,
+            location: "Moscow, Russia",
+            img: MyOfficeLogo
+        },
+        {
             title: "Frontend developer",
             subtitle: "Yandex",
-            dateFrom: "2022-11-09" ,
+            dateFrom: "2022-11-09",
+            dateTo: "2023-10-09",
             location: "Moscow, Russia",
             img: YandexLogo
         },
@@ -97,7 +106,7 @@ export const en = {
     ],
     footer: {
         glowKeys: [
-            "B", "y", "e", 
+            "d", "a", "n", "i", "j", "k", "e"
         ]
     }
 }

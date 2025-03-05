@@ -8,6 +8,7 @@ import VtbLogo from "../assets/img/vtb.png";
 import GpbLogo from "../assets/img/gpb.png";
 import VoliLogo from "../assets/img/voli.jpeg";
 import YandexLogo from "../assets/img/yandex.png";
+import MyOfficeLogo from "../assets/img/myOffice.png";
 
 export  {
     GithubLogo,
@@ -19,5 +20,6 @@ export  {
     VtbLogo,
     GpbLogo,
     VoliLogo,
-    YandexLogo
+    YandexLogo,
+    MyOfficeLogo
 }

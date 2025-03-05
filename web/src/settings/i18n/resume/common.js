@@ -6,21 +6,15 @@ import {
 
 export const TECHSTACK = {
     mainSkills: [
-        "JavaScript",
+        "TypeScript",
         "React",
-        "C#",
+        "NodeJS",
     ],
     otherSkills: [
-        "TypeScript",
+        "JavaScript",
+        "C#",
         ".NET",
-        "ASP.NET",
-        "Entity Framework",
-        "Microsoft SQL Server",
-        "Transact-SQL",
-        "IIS",
-        "Windows Services",
         "REST APIs",
-        "SOAP",
         "Webpack",
         "HTML",
         "CSS",
@@ -38,9 +32,9 @@ export const CONTACTS = [
         link: "https://t.me/daniilpass",
         img: TelegramLogo
     },
-    {
-        title: "LinkedIn",
-        link: "https://linkedin.com/in/daniilpass",
-        img: LinkedinLogo
-    }
+    // {
+    //     title: "LinkedIn",
+    //     link: "https://linkedin.com/in/daniilpass",
+    //     img: LinkedinLogo
+    // }
 ];

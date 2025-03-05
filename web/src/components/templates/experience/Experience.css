@@ -3,5 +3,5 @@
 }
 
 .experience-card .card__image {    
-    filter: grayscale(1) contrast(0);
+    filter: grayscale(1) contrast(.5);
 }

@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "start": "webpack-dev-server --mode development --open --hot",
-        "build": "webpack --mode production"
+        "start": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --mode development --open --hot",
+        "build": "set NODE_OPTIONS=--openssl-legacy-provider && webpack --mode production"
     },
     "eslintConfig": {
         "extends": [
