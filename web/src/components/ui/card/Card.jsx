@@ -3,7 +3,7 @@ import React from "react";
 import "./Card.css";
 
 export function Card(props) {
-    const { title, subtitle, text, img, className } = props;
+    const { title, subtitle, text, link, img, className } = props;
    
     return (
         <div className={`card ${className || ""}`.trim()}>
@@ -13,7 +13,7 @@ export function Card(props) {
             <div className="card__summary">
                 <div className="card__title">{title}</div>
                 <div className="card__subtitle">{subtitle}</div>
-                <div className="card__text">{text}</div>
+                <div className="card__text">{text}<br/>{link}</div>
             </div>       
         </div>
     )

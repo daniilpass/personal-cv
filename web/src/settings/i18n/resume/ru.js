@@ -10,7 +10,8 @@ import {
     GpbLogo,
     VoliLogo,
     YandexLogo,
-    MyOfficeLogo
+    MyOfficeLogo,
+    HomeMapLogo,
 } from "../../../assets/logos";
 
 export const ru = {
@@ -26,30 +27,44 @@ export const ru = {
     contacts: CONTACTS,
     projects: [
         {
+            title :"Мой Дом",
+            subtitle: "Nodejs, React, TypeScript",
+            text: "Интерактивная карта умного дома",
+            img: HomeMapLogo,
+            link: "https://home.anydany.ru/"
+        },
+        {
+            title :"Мой Дом. Демо",
+            subtitle: "Nodejs, React, TypeScript",
+            text: "Интерактивная карта умного дома",
+            img: HomeMapLogo,
+            link: "https://demohome.anydany.ru/"
+        },
+        {
             title :"Beat Notation",
             subtitle: "React, JavaScript",
-            text: <>Онлайн редактор ударных с просмотром нот в реальном времени<br/> https://beat.anydany.ru/</>,
+            text: "Онлайн редактор ударных с просмотром нот в реальном времени",
             img: BeatLogo,
             link: "https://beat.anydany.ru/"
         },
         {
             title: "Image to ASCII",
             subtitle: "React, JavaScript",
-            text: <>Онлайн конвертер изображений в текст <br/> https://ascii.anydany.ru/</>,
+            text: "Онлайн конвертер изображений в текст",
             img: AsciiLogo,
             link: "https://ascii.anydany.ru/"
         },
         {
             title: "Ka`Sha Team",
             subtitle: "HTML5",
-            text: <>Сайт игрового сообщества <br/> https://kasha.anydany.ru/</>,
+            text: "Сайт игрового сообщества",
             img: KashaLogo,
             link: "https://kasha.anydany.ru/"
         },
         // {
         //     title: "Voli channel",
         //     subtitle: "HTML5",
-        //     text: <>Сайт для стримера "Voli channel" <br/> https://voli-channel.ru/</>,
+        //     text: 'Сайт для стримера "Voli channel"',
         //     img: VoliLogo,
         //     link: "https://voli-channel.ru/"
         // }

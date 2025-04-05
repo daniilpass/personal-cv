@@ -10,7 +10,8 @@ import {
     GpbLogo,
     VoliLogo,
     YandexLogo,
-    MyOfficeLogo
+    MyOfficeLogo,
+    HomeMapLogo,
 } from "../../../assets/logos";
 
 export const en = {
@@ -26,30 +27,44 @@ export const en = {
     contacts: CONTACTS,
     projects: [
         {
+            title :"My Home",
+            subtitle: "Nodejs, React, TypeScript",
+            text: "Interactive map of smart home",
+            img: HomeMapLogo,
+            link: "https://home.anydany.ru/"
+        },
+        {
+            title :"My Home. Demo",
+            subtitle: "Nodejs, React, TypeScript",
+            text: "Interactive map of smart home",
+            img: HomeMapLogo,
+            link: "https://demohome.anydany.ru/"
+        },
+        {
             title :"Beat Notation",
             subtitle: "React, JavaScript",
-            text: <>Online drum editor with realtime notation <br/> https://beat.anydany.ru/</>,
+            text: "Online drum editor with realtime notation",
             img: BeatLogo,
             link: "https://beat.anydany.ru/"
         },
         {
             title: "Image to ASCII",
             subtitle: "React, JavaScript",
-            text: <>Online image to text converter <br/> https://ascii.anydany.ru/</>,
+            text: "Online image to text converter",
             img: AsciiLogo,
             link: "https://ascii.anydany.ru/"
         },
         {
             title: "Ka`Sha Team",
             subtitle: "HTML5",
-            text: <>Gaming community website<br/> https://kasha.anydany.ru/</>,
+            text: "Gaming community website",
             img: KashaLogo,
             link: "https://kasha.anydany.ru/"
         },
         // {
         //     title: "Voli channel",
         //     subtitle: "HTML5",
-        //     text: <>Website for "Voli channel" streamer <br/> https://voli-channel.ru/</>,
+        //     text: 'Website for "Voli channel" streamer',
         //     img: VoliLogo,
         //     link: "https://voli-channel.ru/"
         // }

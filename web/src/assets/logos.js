@@ -9,6 +9,8 @@ import GpbLogo from "../assets/img/gpb.png";
 import VoliLogo from "../assets/img/voli.jpeg";
 import YandexLogo from "../assets/img/yandex.png";
 import MyOfficeLogo from "../assets/img/myOffice.png";
+import HomeMapLogo from "../assets/img/homemap.png";
+
 
 export  {
     GithubLogo,
@@ -21,5 +23,6 @@ export  {
     GpbLogo,
     VoliLogo,
     YandexLogo,
-    MyOfficeLogo
+    MyOfficeLogo,
+    HomeMapLogo
 }

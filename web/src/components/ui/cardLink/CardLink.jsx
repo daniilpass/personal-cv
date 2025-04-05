@@ -11,6 +11,7 @@ export function CardLink(props) {
                 title={title}
                 subtitle={subtitle}
                 text={text}
+                link={link}
                 img={img}
                 className={cardClassName} />
         </Link>
