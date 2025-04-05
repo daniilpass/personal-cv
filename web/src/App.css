@@ -45,6 +45,7 @@ a {
 .app {
     display: flex;
     max-width: 1600px;
+    width: 100vw;
     margin: 0 auto;
     padding: 0 var(--safe-space-large);
 }
@@ -53,4 +54,9 @@ a {
     .app__nav-layout {  
         display: none;
     }
+    .app__content-layout {  
+        width: calc(100vw - var(--safe-space-large) * 2);
+    }
 }
+
+html, body {overflow-x: hidden;}
